@@ -8,6 +8,6 @@
   <li><a href="news.asp">News</a></li>
   <li><a href="contact.asp">Contact</a></li>
   <li><a href="about.asp">About</a></li>
-  <li><a href="/signin">Sign up/in</a></li>
+  <li><a href="/auth">auth</a></li>
 </ul>
 
