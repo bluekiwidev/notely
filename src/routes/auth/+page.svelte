@@ -14,15 +14,11 @@
 
 <ul>
   <li><img src={logo} alt="Notely logo" class="logo"></li>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-  <li><a href="/signin">Sign In</a></li>
-  <li><a href="/signup">Sign Up</a></li>
+  <li><a href="/products">Products</a></li>
+  <li><a href="/pricing">Pricing</a></li>
+  <li><a href="https://github.com/bluekiwidev/notely">Github</a></li>
+  <li><a href="/auth">Auth</a></li>
 </ul>
-
-
 
 <div class="app-container">
   {#if $isLoading}
@@ -37,12 +33,7 @@
     </div>
   {:else}
     <div class="main-card-wrapper">
-      <img 
-        src="https://cdn.auth0.com/quantum-assets/dist/latest/logos/auth0/auth0-lockup-en-ondark.png" 
-        alt="Auth0 Logo" 
-        class="auth0-logo"
-      />
-      <h1 class="main-title">Welcome to Sample0</h1>
+      <h1 class="main-title">Welcome to Notely</h1>
 
       {#if $isAuthenticated}
         <div class="logged-in-section">
@@ -55,7 +46,7 @@
         </div>
       {:else}
         <div class="action-card">
-          <p class="action-text">Get started by signing in to your account</p>
+          <p class="action-text">Login to continue</p>
           <LoginButton />
         </div>
       {/if}
