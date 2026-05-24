@@ -4,10 +4,12 @@
 
 <ul>
   <li><img src={logo} alt="Notely logo" class="logo"></li>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-  <li><a href="/auth">auth</a></li>
+  <li><a href="/products">Products</a></li>
+  <li><a href="/pricing">Pricing</a></li>
+  <li><a href="/github">Github</a></li>
+  <li><a href="/auth">Auth</a></li>
 </ul>
+
+<h1 class="main-title">Collaborate</h1>
+<h2 class="sub-title">Effectiently, effectivly with Notely</h2>
 
