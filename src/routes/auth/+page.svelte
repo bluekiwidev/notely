@@ -14,7 +14,7 @@
 
 <ul>
   <li><img src={logo} alt="Notely logo" class="logo"></li>
-  <li><a href="/products">Products</a></li>
+  <li><a href="/">HOME</a></li>
   <li><a href="/pricing">Pricing</a></li>
   <li><a href="https://github.com/bluekiwidev/notely">Github</a></li>
   <li><a href="/auth">Auth</a></li>
