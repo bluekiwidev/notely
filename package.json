@@ -36,6 +36,7 @@
     "wrangler": "^4.94.0"
   },
   "dependencies": {
-    "@auth0/auth0-spa-js": "^2.20.0"
+    "@auth0/auth0-spa-js": "^2.20.0",
+    "motion-sv": "^0.1.12"
   }
 }
